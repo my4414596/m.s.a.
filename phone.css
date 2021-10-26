@@ -1,0 +1,115 @@
+
+/* #navbar ul li a{
+    font-size: 18px;
+} */
+#navbar{
+    width: 193%;
+}
+#home ::before{
+    height: 90%;
+    
+    width: 193%;
+     
+}
+#home{
+    
+    margin: 2px 2px;
+    /* padding: 2px 2px; */
+    padding-top: 15rem;
+    padding-bottom: 3rem;
+    /* padding-left: 7rem; */
+}
+#btn{
+    width: 389px;
+} 
+#result{
+    width: 193%;
+}
+#result img{
+    margin-left: 0px;
+    height: 63rem;
+    width: 100%;
+
+}
+#result p{
+    width:100%
+}
+#about .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 0px 43px;
+    border-radius: 28px;
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+}
+#about .box img{
+    height: 160px;
+    display: block;
+    margin: auto;
+}
+#about{
+    width: 41rem;
+}
+#notes img{
+    padding: 30px 30px;
+    height: 284px;
+   
+    margin: auto;
+}
+#notes{
+border: 2px solid red;
+width:41rem ;
+margin: auto;
+
+
+}
+.para{
+font-size: 22px;
+padding: 20px 20px;
+margin: 20px 20px;
+}
+#tutors img{
+    padding: 30px 30px;
+    height: 284px;
+   
+    margin: auto;
+}
+#tutors{
+border: 2px solid red;
+width:41rem ;
+margin: auto;
+} 
+  
+#contact{
+    position: relative;
+    
+}
+
+#contact::before{
+    
+    width: 194%;
+    height: 98%;
+    
+    margin-top: 10px;
+}
+#contact-box{
+   
+    padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 175%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+contact-box form{
+    width: 40%;
+}
+contact-box label{
+    font-size: 1.3rem;
+    font-family: Bree Serif, serif;
+}
+.contact{
+    width: 200%;
+}

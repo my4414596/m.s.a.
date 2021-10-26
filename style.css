@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+#logo{
+    margin: 2px 2px;
+    
+}
+ #logo img{
+    
+     height: 57px;
+     margin: 7px 10px;
+     padding: 2px 2px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    
+    position: sticky;
+    top: 0px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style:none;
+  font-size: 1.6rem;
+    margin: 0px 7px;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity:0.4
+}
+#navbar ul li a{
+    margin: 2px 2px;
+    padding: 2px 2px;
+    text-decoration: none;
+    display: block;
+    color: white;
+
+}
+#navbar ul li a:hover{
+    color: white;
+    background-color: black;
+   
+}
+#home{
+    align-items: center;
+    justify-content: center;
+    margin: 2px 2px;
+    /* padding: 2px 2px; */
+    padding-top: 29rem;
+    
+    padding-left: 35%;
+    padding-bottom: 12rem;
+}
+#home ::before{
+    content: "";
+    background: url('home.jpg') no-repeat center center/cover;
+    position: absolute;
+     top: 0px;
+   left: 0px;
+    height: 148%;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89 
+}
+#home p{
+    text-align: center;
+    width:25rem ;
+}
+#home h1{
+    width: 27rem;
+    text-align: center;
+    color: rgb(255, 0, 191);
+}
+/* #btn{
+    width: 25rem;
+} */
+.h-primary{
+    font-size: 3.0rem;
+    padding: 0px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 53px;
+}
+.h-secondary{
+    font-size: 2.0rem;
+    padding: 12px;
+}
+#btn{
+    justify-content: center;
+    text-align: center;
+    padding: 2px 91px;
+    border: 2px solid black;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#result{
+    background: #ddaf94;
+    margin: 20px;
+    padding-top: 50px;
+}
+#result{
+    
+    margin: 3px;
+}
+#result  p{
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+}
+#result h2{
+    text-align: center;
+    align-items: center;
+    color: rgb(68, 0, 255);
+}
+#result img{
+    margin-left: 20rem;
+    height: 63rem;
+
+}
+#about{
+    margin: 34px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    text-align: center; */
+    /* align-items: center; */
+}
+
+#about .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 0px 254px;
+    border-radius: 28px;
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+}
+#about .box img{
+    height: 260px;
+    display: block;
+    margin: auto;
+}
+#notes img{
+        padding: 30px 30px;
+        height: 284px;
+        display: block;
+        margin: auto;
+}
+#notes{
+    border: 2px solid red;
+    /* padding: 0px 141px; */
+    margin: 34px;
+    display: flex;
+    flex-direction: column;
+}
+.para{
+    font-size: 22px;
+    padding: 20px 20px;
+    margin: 20px 20px;
+}
+#contact{
+    position: relative;
+    
+}
+
+#contact::before{
+    content: "";
+    position: absolute;
+    background: url('contract.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+    margin-top: 10px;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+contact-box form{
+    width: 40%;
+}
+contact-box label{
+    font-size: 1.3rem;
+    font-family: Bree Serif, serif;
+}
+#contact h1{
+    margin: -10px;
+}
+
+#titors img{
+    padding: 30px 30px;
+    height: 284px;
+    display: block;
+    margin: auto;
+}
+#tutors{
+border: 2px solid red;
+/* padding: 0px 141px; */
+margin: 34px;
+display: flex;
+flex-direction: column;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+.contact{
+    margin: px;
+    border: 2px solid brown;
+    font-size: 30px;
+    background: aqua;
+}
